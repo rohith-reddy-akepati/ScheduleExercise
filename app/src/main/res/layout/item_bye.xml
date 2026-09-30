@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Type "B" (bye) rows. Reuses the same min-height as the score container (spec item 5)
+    so bye weeks don't visually jump out of rhythm with the rest of the list, and shows
+    just the big "BYE" text per spec item 4 (40sp).
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/score_container_min_height"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/byeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.05"
+            android:text="@string/bye_text"
+            android:textColor="@color/spec_grey"
+            android:textSize="@dimen/text_bye"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/byeWeekText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xs"
+            android:textColor="@color/spec_grey"
+            android:textSize="@dimen/text_default"
+            tools:text="Week 5" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/divider" />
+
+</FrameLayout>

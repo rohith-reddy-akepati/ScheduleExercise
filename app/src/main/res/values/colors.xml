@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spec-mandated colors -->
+    <color name="spec_grey">#808080</color>
+    <color name="spec_black">#000000</color>
+
+    <!-- Supporting colors (surfaces / dividers) -->
+    <color name="white">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="section_header_bg">#808080</color>
+    <color name="app_bar_bg">#1B2B34</color>
+    <color name="app_bar_text">#FFFFFF</color>
+    <color name="final_badge_bg">#000000</color>
+    <color name="final_badge_text">#FFFFFF</color>
+    <color name="live_red">#D0021B</color>
+</resources>

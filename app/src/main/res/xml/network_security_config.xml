@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- The schedule feed and its logo images are served over plain HTTP by the assessment's
+         own S3 endpoints (see the spec's own example URLs). Rather than a blanket
+         usesCleartextTraffic="true", we scope the cleartext exception to just those two
+         hosts; every other domain still requires HTTPS. -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">files.yinzcam.com.s3.amazonaws.com</domain>
+        <domain includeSubdomains="false">yc-app-resources.s3.amazonaws.com</domain>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

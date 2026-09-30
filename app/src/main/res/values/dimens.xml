@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Page-layout spec values (from the assessment PDF) ===== -->
+    <!-- 1. Score text size of 32dp (spec calls this "dp"; textSize takes a dimension so
+         a dp value renders correctly, even though sp is the normal choice for text -
+         see README for this deliberate, spec-literal decision). -->
+    <dimen name="text_score">32dp</dimen>
+    <!-- 2. Team Name text size of 24sp -->
+    <dimen name="text_team_name">24sp</dimen>
+    <!-- 3. Team Logo size: 20x20dp -->
+    <dimen name="logo_size">20dp</dimen>
+    <!-- 4. BYE text size of 40sp -->
+    <dimen name="text_bye">40sp</dimen>
+    <!-- 5. Score container min height: 200dp -->
+    <dimen name="score_container_min_height">200dp</dimen>
+    <!-- 6. Regular Season (section header) container: 60dp, text size of 20sp -->
+    <dimen name="section_header_height">60dp</dimen>
+    <dimen name="text_section_header">20sp</dimen>
+    <!-- 7. All other text in this screen: 14sp -->
+    <dimen name="text_default">14sp</dimen>
+
+    <!-- ===== Generic spacing, not called out in the spec ===== -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="app_bar_height">56dp</dimen>
+</resources>

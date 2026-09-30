@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Schedule</string>
+    <string name="schedule_title">SCHEDULE</string>
+    <string name="bye_text">BYE</string>
+    <string name="loading">Loading schedule…</string>
+    <string name="error_generic">Couldn\'t load the schedule. Check your connection and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="record_placeholder">0-0</string>
+    <string name="cd_team_logo">%1$s logo</string>
+    <string name="cd_menu">Menu</string>
+    <string name="menu_jump_to_current">Jump to current game</string>
+    <string name="menu_refresh">Refresh schedule</string>
+    <string name="no_current_game">No current game in this schedule</string>
+    <string name="game_details_title">%1$s @ %2$s</string>
+</resources>
